@@ -1,6 +1,4 @@
-cd /d/MERN\ Stack\ Projects/affinity-assignment
 
-cat > README.md << 'EOF'
 # Affinity Solutions Technical Assessment
 
 **Candidate**: Madhu Nayani  
