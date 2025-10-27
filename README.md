@@ -81,4 +81,3 @@ Full Stack Developer (MERN)
 
 ## License
 MIT License - See [LICENSE](./LICENSE) file
-EOF
