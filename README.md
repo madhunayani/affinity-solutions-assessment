@@ -82,8 +82,3 @@ Full Stack Developer (MERN)
 ## License
 MIT License - See [LICENSE](./LICENSE) file
 EOF
-
-# Commit root README
-git add README.md
-git commit -m "Add comprehensive root README with project overview"
-git push origin main
