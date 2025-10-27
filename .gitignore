@@ -1,0 +1,40 @@
+# In root: D:\MERN Stack Projects\affinity-assignment\
+
+@"
+# Virtual Environments
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Output files (keep one sample)
+*.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MySQL
+*.sql~
+
+# Credentials (if any)
+*.env
+.env
+config.ini
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
