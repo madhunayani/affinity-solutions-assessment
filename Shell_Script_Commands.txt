@@ -1,0 +1,95 @@
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment (main)
+$ pwd
+/d/MERN Stack Projects/affinity-assignment
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment (main)
+$ mkdir phase-3-shell-script
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment (main)
+$ cd phase-3-shell-script/
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ touch extract_nav.sh
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ chmod +x extract_nav.sh
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ code extract_nav.sh
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ pwd
+/d/MERN Stack Projects/affinity-assignment/phase-3-shell-script
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ ./extract_nav.sh
+==========================================
+AMFI NAV Data Extraction Script
+==========================================
+
+[1/4] Downloading NAV data from AMFI...
+✓ Download complete (1 lines)
+
+[2/4] Extracting Scheme Name and Net Asset Value...
+✓ Extracted 0 scheme records
+
+[3/4] Converting to JSON format...
+✓ JSON conversion complete
+
+[4/4] Summary
+==========================================
+Files created:
+  - nav_output.tsv (1 lines)
+  - nav_output.json (5 bytes)
+
+Sample data (first 5 schemes):
+Scheme Name     Net Asset Value
+
+✓ Extraction complete!
+==========================================
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ touch README.md
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ ^C
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ chmod +x extract_nav.sh
+
+Madhu Nayani@Madhu-Galaxy-Book MINGW64 /d/MERN Stack Projects/affinity-assignment/phase-3-shell-script (main)
+$ ./extract_nav.sh
+==========================================
+AMFI NAV Data Extraction Script
+==========================================
+
+[1/4] Downloading NAV data from AMFI...
+✓ Download complete (17250 lines)
+
+[2/4] Extracting Scheme Name and Net Asset Value...
+✓ Extracted 14058 scheme records
+
+[3/4] Converting to JSON format...
+✓ JSON conversion complete
+
+[4/4] Summary
+==========================================
+Files created:
+  - nav_output.tsv (14059 lines)
+  - nav_output.json (1685081 bytes)
+
+Sample data (first 10 schemes):
+Scheme Name                                                                Net Asset Value
+Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW             109.5673
+Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - MONTHLY IDCW     117.9433
+Aditya Birla Sun Life Banking & PSU Debt Fund  - Direct - Quarterly IDCW   105.1033
+Aditya Birla Sun Life Banking & PSU Debt Fund  - REGULAR - IDCW            153.7423
+Aditya Birla Sun Life Banking & PSU Debt Fund  - REGULAR - MONTHLY IDCW    113.582
+Aditya Birla Sun Life Banking & PSU Debt Fund  - REGULAR - Quarterly IDCW  102.94
+Aditya Birla Sun Life Banking & PSU Debt Fund  - retail - monthly IDCW     113.9576
+Aditya Birla Sun Life Banking & PSU Debt Fund  - retail - quarterly IDCW   104.089
+Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Growth        374.3068
+Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Growth         561.8854
+
+✓ Extraction complete!
+==========================================
